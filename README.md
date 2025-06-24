@@ -16,8 +16,9 @@ This Python script retrieves AWS account details and their billing block assignm
 ## 📦 Requirements
 
 - Python 3.7+
-- A valid CloudHealth API key with acess to the partner tenant.
+- A valid CloudHealth API key
 - Internet access
+````
 
 ### 2. Add your CloudHealth API Key
 
@@ -65,5 +66,4 @@ python3 billing_export.py
 * If an account has no billing block assignment, the related fields including PayerAccountId will be blank.
 * Errors will be shown in the “Billing Block Errors if Any” column.
 * If the PayerAccount is assigned to Billing Block with "Family" Billing Block type, then consider all the linked accounts from that payer Account are assigned under the same billing block.
-
 
