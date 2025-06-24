@@ -51,13 +51,13 @@ python3 billing_export.py
 | AWS Owner ID                | AWS account owner ID                       |
 | AWS Name                    | AWS account alias/name                     |
 | Account Type                | Type of account                            |
-| Payer Account Name          | Cluster or payer account name              |
+| Payer Account Name          | Payer account name                         |
 | Payer Account ID            | Payer account owner ID                     |
 | Billing Block ID            | Unique ID of the billing block             |
 | Billing Block Name          | Human-readable billing block name          |
 | Billing Block Type          | Type of billing block (e.g., Consolidated) |
-| Designated Payer Account ID | Designated payer ID for billing            |
-| Billing Block Errors if Any | Any assignment errors                      |
+| Designated Payer Account ID | Designated payer ID for billing block      |
+| Billing Block Errors if Any | Any  Billing Block assignment errors       |
 | Client API ID               | CloudHealth client API ID                  |
 | Customer Name               | CloudHealth customer name                  |
 
