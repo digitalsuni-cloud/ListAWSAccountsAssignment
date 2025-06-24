@@ -16,16 +16,8 @@ This Python script retrieves AWS account details and their billing block assignm
 ## 📦 Requirements
 
 - Python 3.7+
-- A valid CloudHealth API key
+- A valid CloudHealth API key with acess to the partner tenant.
 - Internet access
-
-## 🔧 Setup & Usage
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/your-username/aws-billing-exporter.git
-cd aws-billing-exporter
-````
 
 ### 2. Add your CloudHealth API Key
 
